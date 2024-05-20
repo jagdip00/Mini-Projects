@@ -1,0 +1,6 @@
+- create two VPCs - VPC A & VPC B
+- create two different subnets and associate each with different VPC
+- create two Route Tables and associate each with relevant VPCs
+- create two Internet Gateways and attach each to different VPC
+- go back into 'routes tab' in route tables for each route table and add access to the internet using the Internet Gateway
+- create two different security groups and set the inbound rules for personal IP
