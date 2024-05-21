@@ -1,1 +1,7 @@
-
+- create a vpc, 2 subnets, internet gateway, route tables and associate all with each other
+- create 2 ec2's and attach them to the each of the subnets
+- in ec2 side menu, select load balancer and select the relevant type of load balancer you want to use, set up the load balancer with relevant information 
+- under target group heading, create a target group and fill in using the relevant info
+- select the two different subnets where the ec2 instances are located
+- add the target group to the load balancer and create the load balancer
+- wait for the load to intiate and test it out
