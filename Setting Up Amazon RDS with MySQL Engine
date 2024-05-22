@@ -1,0 +1,8 @@
+- go to rds and click create database, select easy create to let aws fill in most of the settings
+- select mysql engine type, free tier, name the database, name the username and decide whether to let aws choose password or self make it
+- create the database
+- let the database set up and make a note of the password and username
+- select te database and click modify
+- go down to Connectivity and select Publicly accessible to let anyone outside of the vpc connect to the dbs
+- click on the database and click on the security group and change the inbound rules to let certain traffic connect to the database
+- to connect to the database, download MySQL Workbench and use the endpoint, master username and password to connect to the database
